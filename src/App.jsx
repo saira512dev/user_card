@@ -30,7 +30,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="app">
       <DarkModeToggle
       onChange={()=> setDarkMode(!darkMode)}
       checked={darkMode}
